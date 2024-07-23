@@ -1,0 +1,80 @@
+/* Selector Universal*/
+* {
+    font-family: "Gill Sans", sans-serif;
+}
+
+/* Selector de etiqueta: Ocupa el nombre de la etiqueta y modifica todas las ocurrencias (todos los nombres iguales) */
+body {
+    background-color: whitesmoke;
+    padding: 0.5em 7em 1em 7em;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: #55518f;
+    text-align: center
+}
+
+footer {
+    text-align: end;
+}
+
+img, p{
+    padding: 10px;
+}
+
+
+
+
+/* Selector de clase: Vamos a cambiar a todos los elementos que tengan esta clase, para que tenga el mismo formato. Usando el atributo de class, es más para distintos elementos */
+
+.class-img{
+    width: 300 px;
+    height: 200 px;
+}
+
+
+/*Para alinear una imagen, se debe meter el codigo en una caja de parrafo*/
+/*atributo class*/
+.text-align {
+    text-align: center;
+}
+
+
+/* Selector por id: Nos permite seleccionar un elemento único dentro del sitio, para un solo elemento. No se debe repetir ids */
+#logo {
+    width: 200px;
+}
+#navegacion {
+    display:inline;
+}
+
+
+
+/* Selector combinado: Aqui podemos combinar mas de una opcion para ir filtrando mis etiquetas, primero va el mas especifico y despues el mas generico */
+
+#navegacion li{
+    display:inline;
+}
+
+
+/* Para poner el texto al lado de las imagenes de los enhypen */
+.d-flex{
+    display: flex;
+}
+
+
+#redes {
+    display: inline-block;
+    width: 40px;
+}
+
+
+
+#cabecera {
+    display: inline;
+    padding: 15px;
+}
