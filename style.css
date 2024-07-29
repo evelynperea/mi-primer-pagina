@@ -15,7 +15,7 @@ p {
 
 h2 {
     color: #55518f;
-    text-align: center
+    text-align: center;
 }
 
 footer {
@@ -46,7 +46,7 @@ img, p{
 
 /* Selector por id: Nos permite seleccionar un elemento único dentro del sitio, para un solo elemento. No se debe repetir ids */
 #logo {
-    width: 200px;
+    width: 380px;
 }
 #navegacion {
     display:inline;
